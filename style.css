@@ -1,39 +1,54 @@
 body {
-    color: #fffbf7;
+    background-color: #fffbf7;
 }
 
-
 h1 {
-    color: #1DA1F2;
+    color: #025157;
     text-align: center;
+    font-family: "Alegreya", serif;
+}
 
+h3 {
+    color: #025157;
+}
+
+h4 {
+    color: #46484c;
 }
 
 p {
-    color: #46484c;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20;
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
 }
+
+
 
 button {
     color: #fff;
     background-color: #025157;
 }
 
-h2 {
-    color:#46484c;
-}
-
 .header {
-    /*  margin-top: 40px;
+    /* margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px; */
     margin: 40px 20px 0;
     font-size: 0;
+    font-family: sans-serif;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#fffbf7;
 }
 
 li {
     display: inline;
+    margin: 0 25px 0;
 }
 
 .header > * {
@@ -53,7 +68,7 @@ li {
 }
 
 .navbar {
-    width: 70%;
+    width: 60%;
     text-align: center;
     color: #025157;
     font-weight: 500;
@@ -66,13 +81,69 @@ li {
     font-weight: 600;
 }
 
+.actions > * {
+    margin: 0 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
 .main {
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 
-strong {
-    color: #8b8b8bcc;
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.publish {
+    margin-left: 30px;
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish > form {
+    display: flex;
+}
+
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
 }
 
 
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
